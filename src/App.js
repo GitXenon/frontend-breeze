@@ -29,7 +29,7 @@ function App() {
   const chartRef = useRef();
   const fetchData = async () => {
     try {
-      const response = await fetch('http://localhost:2020/');
+      const response = await fetch('https://sea-turtle-app-tr8qq.ondigitalocean.app/');
       const json = await response.json();
 
       const newPoint = {
